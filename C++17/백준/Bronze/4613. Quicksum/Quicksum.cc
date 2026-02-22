@@ -13,15 +13,8 @@ int solve(string s) {
 	return result;
 }
 int main() {
-	vector<string> v;
 	string s;
-	while (1) {
-		getline(cin, s);
-		if (s == "#") break;
-		v.push_back(s);
-	}
-
-	for (auto str: v) {
-		cout << solve(str) << "\n";
+	while (getline(cin, s) && s != "#") {
+		cout << solve(s) << "\n";
 	}
 }
