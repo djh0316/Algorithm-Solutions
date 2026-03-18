@@ -10,6 +10,16 @@ long long solve(long long x, long long y, long long z) {
 	if (z >= 99) return -1;
 
 	while (1) {
+		x += 100;
+		y += 100;
+		temp = y * 100 / x;
+		if (temp != z) break;
+		i += 100;
+	}
+	x -= 100;
+	y -= 100;
+
+	while (1) {
 		x += 10;
 		y += 10;
 		temp = y * 100 / x;
