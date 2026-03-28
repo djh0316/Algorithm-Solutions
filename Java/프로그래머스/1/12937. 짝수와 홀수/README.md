@@ -48,7 +48,8 @@
       </table>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
-> <details>
+
+<details>
 <summary><b>🔍 풀이 상세보기 (클릭)</b></summary>
 
 이곳에 본인의 상세한 설명, 삽질 기록, 시간 복잡도 등을 적으세요.
