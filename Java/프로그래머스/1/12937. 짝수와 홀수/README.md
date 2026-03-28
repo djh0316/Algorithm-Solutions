@@ -51,8 +51,9 @@
 
 <details>
 <summary><b>🔍 풀이 상세보기 (클릭)</b></summary>
-<br>
+        
 1. String s = n + "" 를 활용하여 n을 string 형태로 변형하여 charAt을 활용해 배열에 저장
 2. import Java.util.Array 를 활용한 Arrays.sort(배열명)으로 배열을 오름차순으로 정렬한다
 3. s.length() - 1 부터 0 까지 answer에 계산하여 역순으로 return
+        
 </details>
